@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Selector Basic Page</title>
+<style>
+h1{background-color:rGba(255, 255, 255, 0.5);}
+
+
+
+
+</style>
+</head>
+<body>
+<h1>orem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</body>
+</html>

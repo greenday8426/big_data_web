@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>과일 수입</title></head>
+<body>
+<h3>과일 수입</h3>
+<hr>
+
+<table border="1">
+<capthon>
+    과일 수입 표</capthon>
+<thead>
+<tr>
+<th>사과</th>
+<th>바나나</th>
+<th>망고</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img.src="사과.jpg" alt="사과" width="300"/> </td>
+<td><img.src="바나나.jpg" alt="바나나" width="300"/> </td>
+<td><img.src="망고.jpg" alt="망고" width="300"/> </td>
+
+</tr>
+
+
+
+
+
+<tr>
+<th>페루</th>
+<th>필리핀</th>
+<th>호주</th>
+</tr>
+
+</tbody>
+
+
+
+
+</body>
+
+</html>
