@@ -18,8 +18,8 @@ def fetch_contents_from_url():
         'User-Agent':'curl/7.43.0',
         'Accept':'*/*',
         'Content-Type':'application/xml',
-        'X-Naver-Client-id':'014VqkiZDGAZIzLtMb7m',
-        'X-Naver-Client-Secret':'cVJTbXqNe3'
+        'X-Naver-Client-id':''='',
+        'X-Naver-Client-Secret':'='
         }
     
     r=urllib.request.urlopen(url)
