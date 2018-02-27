@@ -1,0 +1,25 @@
+
+옵션 익히기 3
+==============
+
+tidy 옵션은 코드를 정리한다.
+다음은 TRUE 결과이다.
+
+```{r codeco, tidy=TRUE}
+library(formatR)
+a<-sample(1:10,10,replace = TRUE)
+f<-function(x) {m<-mean(x); s<-sd(x); v<-var(x) return(list(mean=m,sd=s, var=v))}
+
+a
+f(a)
+```
+
+@다음은 'prompt=TRUE, tidy=FALSE'로 주었다. @
+```{r prompt=TRUE, comment=NA, tidy=FALSE}
+a<-sample(1:10,10,replace = TRUE)
+f<-function(x) {m<-mean(x); s<-sd(x); v<-var(x) return(list(mean=m,sd=s, var=v))}
+
+a
+f(a)
+```
+
