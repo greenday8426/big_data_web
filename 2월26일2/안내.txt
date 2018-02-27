@@ -1,0 +1,9 @@
+1. char.html, gallery.html, plot.png 파일을 
+본인의 서버(/var/www/html) 아래에 저장합니다.
+
+2. xe 에 '청년취업아카데미' 메뉴를 만들어 char.html 파일과 연결하고,
+'gallery' 메뉴를 만들어 gallery.html 파일과 연결합니다.
+
+3. 각각의 메뉴를 여러분이 만든 과제로 완성해주세요..
+char는 9장을 R마크다운으로 만든 문서(샘플참조),
+gallery는 png대신 여러분이 만든 지도 그림을 넣어 연결하면 됩니다.

@@ -1,0 +1,28 @@
+
+코드 청크의 텍스트를 출력하는 옵션
+===================================
+
+```{r}
+summary(cars)
+```
+
+
+
+다음은 디폴트이다.
+```{r codeco, tidy=TRUE}
+a<-sample(1:10 ,10, replace = TRUE)
+f<-function(x) {m<-mean(x); s<-sd(x); v<-var(x) 
+return(list(mean=m,sd=s, var=v))}
+
+a
+f(a)
+```
+
+@다음은 'prompt=TRUE, comment=NA'로 주었다.comment=NA 는 주석 표시를 없앤다.@
+```{r, prompt=TRUE, comment=NA, tidy=TRUE}
+a<-sample(1:10,10,replace = TRUE)
+f<-function(x) {m<-mean(x); s<-sd(x); v<-var(x) return(list(mean=m,sd=s, var=v))}
+
+a
+f(a)
+```

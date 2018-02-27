@@ -1,0 +1,29 @@
+옵션 익히기 2
+--------------
+
+코드 청크가 자신이 가지고 있는 소스코드를 출력으로 할지 여부를 제어할 수 있다.
+이것은 echo 옵션으로 TRUE 나 FALSE 혹은 숫자 값을 정할 수 있다.
+디폴트는 TRUE다. echo=TRUE 면 출력하고 FALSE는 출력하지 않는다.
+숫자 값은 코드의 일부만 출력할 때 사용한다. 예를 들어 echo=1:3 이면 1에서 3번 줄까지를, echo=-2는
+2번줄을 제외하라는 의미이다. echo=(1,3)은 1번과 3번줄을 출력하라는 의미이다.
+
+```{r setting, include=FALSE}
+library(ggplot2)
+```
+
+
+
+
+다음과 같이 히스토그램을 그린다.
+
+```{r normalids, echo=FALSE}
+a<-rnorm(1000)
+hist(a,col='orange')
+```
+
+ggplot2로 같은 히스토그램을 그린다.
+```{r ggplot, echo=TRUE}
+p<-ggplot(as.data.frame(a),aes(a))
+p<-p+geom_histogram(binwidth = 0.2,fill="orange")
+p<-p+theme_bw()
+```
